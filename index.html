@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 1. Centered text -->
+    <div class="center-text">
+        <p>This text is centered horizontally.</p>
+    </div>
+
+    <!-- 2. Flexbox center alignment -->
+    <div class="container-flex">
+        <p>This content is centered both vertically and horizontally using Flexbox.</p>
+    </div>
+
+    <!-- 3. Align items in a row (start and end) -->
+    <div class="flex-start">
+        <div class="box">Item 1</div>
+        <div class="box">Item 2</div>
+    </div>
+    <div class="flex-end">
+        <div class="box">Item 1</div>
+        <div class="box">Item 2</div>
+    </div>
+
+    <!-- 4. Vertical alignment -->
+    <div>
+        <span class="vertical-align">This text is vertically aligned in the middle.</span>
+    </div>
+
+    <!-- 5. Center the last line of a justified text block -->
+    <div class="align-last">
+        <p>This paragraph is justified, and the last line is centered.</p>
+    </div>
+
+    <!-- 6. Align specific item using align-self -->
+    <div class="container-flex">
+        <div class="align-self-center">
+            <p>This item is aligned to the center individually in a flex container.</p>
+        </div>
+    </div>
+
+    <!-- 7. Align multiple rows in Flexbox -->
+    <div class="align-content-center">
+        <div class="box">Row 1</div>
+        <div class="box">Row 2</div>
+        <div class="box">Row 3</div>
+    </div>
+</body>
+</html>

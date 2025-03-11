@@ -1,0 +1,26 @@
+/* Opacity.css */
+
+/* 1. Basic opacity usage */
+.opacity-example {
+    opacity: 0.5; /* 50% transparent */
+}
+
+/* 2. Fully transparent element */
+.transparent-element {
+    opacity: 0; /* Fully transparent, element will not be visible */
+}
+
+/* 3. Fully opaque element */
+.opaque-element {
+    opacity: 1; /* Fully opaque, no transparency */
+}
+
+/* 4. Hover effect to change opacity */
+.opacity-hover:hover {
+    opacity: 0.7; /* Changes opacity to 70% when hovered */
+}
+
+/* 5. Opacity with background color */
+.opacity-bg {
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black background */
+}
